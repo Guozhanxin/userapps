@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug @ Windows",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}\\hello.elf",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "miDebuggerServerAddress": "localhost:1234",
+            "serverLaunchTimeout": 2000,
+            "targetArchitecture": "ARM",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/envs/xpack-riscv-none-elf-gcc-12.2.0-1-win32-x64/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gdb.exe"
+        },
+    ]
+}
